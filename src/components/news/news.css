@@ -1,0 +1,48 @@
+.news {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.fa-arrow-right {
+    margin-left: 5px;
+}
+
+.next-btn,
+.prev-btn {
+    cursor: pointer;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #1abc9c;
+    color: #F5F5F5;
+    border: none;
+    width: 20%;
+    padding: 6px;
+    font-size: 1em;
+    border-radius: .5rem;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.next-btn:hover {
+    background-color: #F5F5F5;
+    color: #1abc9c;
+}
+
+.prev-btn:hover {
+    background-color: #F5F5F5;
+    color: #1abc9c;
+}

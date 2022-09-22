@@ -1,0 +1,98 @@
+.about-container {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.about-container h2 {
+    color: #1abc9c;
+    font-family: "Lora", serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+.about-container h3 {
+    color: #1abc9c;
+    font-family: "Lora", serif;
+}
+
+.about-container p {
+    margin-top: 10px;
+    line-height: 2;
+    font-family: 'Varela Round', sans-serif;
+    color: #444;
+
+}
+
+.about-container hr {
+    border: dotted #1abc9c 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 40px auto 40px auto;
+    text-align: left;
+}
+
+.skill-row h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+
+}
+
+.about-container p {
+    text-align: left;
+}
+
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: #1abc9c;
+    color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #F5F5F5;
+    text-decoration: none;
+}
+
+.test {
+    color: #F5F5F5;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .skill-row {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .contact-message {
+        width: 100%;
+    }
+}
