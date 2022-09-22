@@ -31,8 +31,14 @@ nav a {
     margin: 0 1rem;
     text-decoration: none;
     font-size: 20px;
+    color: #444;
     font-family: "Josefin Sans", sans-serif;
 }
+
+
+
+
+
 
 nav a:hover {
     color: #1abc9c;
